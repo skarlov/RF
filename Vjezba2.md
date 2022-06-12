@@ -3,6 +3,7 @@
 # File type:
 
 Kod:
+
 import magic
 
 data1 = magic.from_file("file1")
@@ -18,6 +19,7 @@ print(data3)
 # Hash:
 
 Kod:
+
 import hashlib
 file1 = "test.txt"
 file2 = "test1.txt"
@@ -42,6 +44,7 @@ print ("test1.txt sha256: " + file2_sha256.hexdigest())
 # Uspoređivanje Word dokumenta s različitim ekstenzijama:
 
 Kod:
+
 import hashlib
 file1 = "test.docx"
 file2 = "test.jpg"
