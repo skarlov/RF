@@ -1,7 +1,7 @@
 ## Vježba 4 - Računalna forenzika
 
 # Kod:
-
+```
 import os, sys, optparse
 from exif import Image
 import webbrowser
@@ -74,6 +74,6 @@ if __name__ == "__main__":
         pdfMetaData(path)
     else:
         print("File extension not supported/recognized... Make sure the file has the correct extension...")
-
+```
 ![image](https://user-images.githubusercontent.com/56872071/173104775-12ced926-c6b8-43ef-8b75-deffd5a09ef5.png)
 
