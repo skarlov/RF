@@ -1,7 +1,7 @@
 ## Vježba 3 - Računalna forenzika
 
 Kod:
-
+```
 LOG_FILE = "setupapi.dev.log"
 DEVICE_USB_STR = "USBSTOR"
 DEVICE_START_STR = "[Device Install (Hardware initiated)"
@@ -19,7 +19,7 @@ with open(LOG_FILE) as f:
             print("Serial: ", usb_2)
             print("Time: ", usb_3)
             print("")
-
+```
 ![image](https://user-images.githubusercontent.com/56872071/173101644-6862f12d-1dc4-49b6-a79b-e93f07a462c4.png)
 
 ![image](https://user-images.githubusercontent.com/56872071/173101724-ac286508-a905-46a7-b5e6-df3f11e791e3.png)
